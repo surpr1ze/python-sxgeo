@@ -1,7 +1,7 @@
 python-sxgeo
 ============
 
-Python API fro sypexgeo database
+Python API for sypexgeo database
 
 Usage
 =====
