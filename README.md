@@ -1,9 +1,20 @@
-python-sxgeo
+## python-sxgeo
 ============
 
-Python API for sypexgeo database
+Python интерфейс для работы с базой данных [Sypex Geo](http://sypexgeo.net/ru/about/)
 
-Usage
+### Sypex Geo
+Это база местоположений IP-адресов (IP-сетей), преимущественно для стран СНГ в очень компактном формате. 
+Результатом поиска IP-адреса в базе являются:
+```
+- Координаты местонахождения – широта и долгота в WGS84
+- Название города/региона/страны
+- ОКАТО/ОКТМО/КОАТУУ/СОАТО коды
+- iso/timezone/continent
+- [geoname_id](http://www.geonames.org/manual.html)
+```
+
+### Usage
 =====
 
     >>> from sxgeo import SxAPI
